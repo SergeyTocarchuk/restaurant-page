@@ -11,7 +11,6 @@
 .container {
   width: 100vw;
   height: 100vh;
-  border: 1px solid red;
   background-color: #E0FFFF;
   display: flex;
   flex-direction: column;
@@ -44,4 +43,17 @@ li:hover {
   border-bottom: 2px solid #c59d5f;
   padding-bottom: 4px;
   cursor: pointer;
+}
+
+/* footer */
+
+footer {
+  height: 94px;
+  border-top: 2px solid #c59d5f;
+  display: flex;
+}
+
+footer p {
+  margin: auto;
+  color: #c59d5f;
 }
