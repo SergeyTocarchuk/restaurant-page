@@ -8,6 +8,7 @@ function render() {
   // add restaurant image on Home page
   const image = new Image();
   image.src = Restaurant;
+  image.classList.add('main-img');
 
   const menuButton = document.createElement('button');
 

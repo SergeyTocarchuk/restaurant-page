@@ -4,6 +4,7 @@ import { renderNav } from './navbar';
 import { renderHome } from './main-home';
 import { renderFooter } from './footer';
 import { renderAbout } from './about';
+import { renderMenu } from './menu';
 
 const containerDiv = document.querySelector('.container');
 
@@ -21,6 +22,13 @@ function about(){
   renderFooter();
 }
 
+function menu(){
+  containerDiv.innerHTML = "";
+  renderNav();
+  renderMenu();
+  renderFooter();
+}
+
 home();
 
 document.addEventListener('click', (e) => {
@@ -28,6 +36,7 @@ document.addEventListener('click', (e) => {
 
   if( target === "HOME" ) home();
   if( target === "ABOUT" ) about();
+  if( target === "MENU" ) menu();
 })
 
 export { containerDiv };
