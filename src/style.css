@@ -56,14 +56,14 @@ li:hover {
 }
 
 h1 {
-  margin: 20px;
+  margin: 10px;
   text-align: center;
   text-transform: uppercase;
   color: #c59d5f;
 }
 
 h3 {
-  margin: 20px;
+  margin: 10px;
   text-align: center;
   text-transform: uppercase;
   color: #c59d5f;
@@ -88,6 +88,16 @@ button {
 
 button:hover {
   color: white;
+}
+
+/* about section text */
+
+.inner-text {
+  margin: 20% auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* footer */
