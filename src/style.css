@@ -69,6 +69,27 @@ h3 {
   color: #c59d5f;
 }
 
+img {
+  max-width: -webkit-fill-available;
+  padding: 5px;
+}
+
+button {
+  color: #c59d5f;
+  background: black;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+}
+
 /* footer */
 
 footer {
